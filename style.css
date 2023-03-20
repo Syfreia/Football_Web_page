@@ -1,0 +1,1281 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/* -----------------------------HEADER------------------------------------ */
+
+header {
+    height: 120px;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 70, 140, 1) 85%);
+    margin-bottom: 50px;
+}
+
+.denna{
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+}
+
+header img {
+    height: 70px;
+    margin-right: 30px;
+}
+
+.logoetaizenburua {
+    display: flex;
+    align-items: center;
+}
+
+#izenburua {
+    font-size: 28px;
+    color: rgba(255, 70, 140, 1);
+    font-weight: 600;
+}
+
+/* -----------------------------MENUA-------------------------------------------- */
+
+nav {
+    padding: 1%;
+    width: auto;
+    float: right;
+}
+
+nav ul {
+    display: table;
+    float: right;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li:last-child {
+    padding-right: 0px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 16px;
+    padding: 20px 20px;
+    display: inline-block;
+    transition: all 0.5s ease 0s;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-size: 18px;
+    transition: all 0.5s ease 0s;
+}
+
+
+
+.toggle-menu ul {
+    display: table;
+    margin-left: 25px;
+    margin-right: 15px;
+    margin-top: 18px;
+    width: 25px;
+}
+
+.toggle-menu ul li {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+.toggle-menu ul li:last-child {
+    margin-bottom: 0px;
+}
+
+input[type=checkbox],
+.hamb label {
+    display: none;
+}
+
+.content {
+    display: table;
+    margin-bottom: 60px;
+    width: 900px;
+}
+
+.content h2 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #002e5b;
+    border-bottom: 1px solid #fde428;
+    display: table;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #7c7c7c;
+    text-align: justify;
+}
+
+
+#active {
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* -----------------------------FORM-------------------------------------------- */
+
+
+#derrigorrezkoa{
+    font-size: 12px;
+}
+#derrigorrezkoaa{
+    font-size: 12px;
+    margin-left: 75px;
+}
+
+.kontatuaform2{
+    padding: 10px;
+    border-color: #ff468c;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+.kontatuaform2 input:invalid {
+    border-color: #DD2C00;
+    padding: 5px;
+}
+
+.kontatuaform2 input:valid {
+    border-color: #22ff00;
+    padding: 5px;
+}
+
+.kontatuaform input:invalid {
+    border-color: #DD2C00;
+    padding: 5px;
+}
+
+.kontatuaform input:valid {
+    border-color: #22ff00;
+    padding: 5px;
+}
+
+#Derrigorrezkoa{
+    font-size: 12px;
+}
+
+.botoiak2{
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 6px;
+
+}
+
+.kontaktuatext{
+    display: flex;  
+    justify-content: center;
+    gap: 55px;
+
+}
+
+
+
+#formimg{
+    margin-top: -15px;
+    margin-left: 39%;
+    height: 30px;
+    width: 70px;
+}
+
+
+
+
+/* -------------------------FOOTER------------------------------------- */
+
+
+
+@media (max-height:800px) {
+        header {
+        padding-top: 40px;
+    }
+}
+
+.footer-center img {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.footer-distributed {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 70, 140, 1) 85%);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.footer-distributed .footer-left {
+    width: 30%;
+
+}
+
+#Erregistratuu{
+    font-size: 40px;
+    color: blue;
+}
+
+#tel {
+    color: rgba(255, 70, 140, 1);
+
+}
+
+#mail {
+    color: rgba(255, 70, 140, 1);
+
+}
+
+.footer-distributed h3 {
+    color: rgba(255, 70, 140, 1);
+    font-size: 40px;
+    margin: 0;
+}
+
+
+.footer-distributed .footer-left img {
+    width: 30%;
+}
+
+.footer-distributed h3 span {
+    color: rgba(255, 70, 140, 1);
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: rgb(0, 0, 0);
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-icons img {
+    height: 40px;
+    cursor: pointer;
+
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #b0bbc2;
+    border-radius: 2px;
+
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+
+
+/* ---------------------------GALERIA-------------------------------- */
+
+.galeriaarg {
+    width: 50%;
+    margin: auto;
+
+}
+
+
+.galeriaarg img {
+    width: 100%;
+    height: 250px;
+
+
+}
+
+
+.galeriaarg h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.grid-container {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-gap: 5px;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .argazkiak img{
+    border-radius: 25px;
+  }
+
+  @media only screen and (max-width: 1215px) {
+    .grid-container {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 170px 170px 170px ;
+        grid-gap: 5px;
+        justify-items: center;
+        align-items: center;
+    }
+    .argazkiak img{
+        height: 150px;
+    }
+}
+
+  @media only screen and (max-width: 600px) {
+    .grid-container {
+        justify-content: center;
+        display: grid;
+        grid-template-columns: 170px 170px ;
+        grid-gap: 5px;
+        justify-items: center;
+        align-items: center;
+    }
+    .argazkiak img{
+        height: 150px;
+    }
+}
+
+
+
+
+/* ---------------------ERREGISTRO ETA KONTAKTUA------------------------------------------ */
+
+.kontatuaform {
+    width: 25.5%;
+    margin: auto;
+    padding: 20px;
+    margin-top: 40px;
+    border-color: #ff468c;
+    border-radius: 10px;
+    background-color: #ffffff;
+
+}
+
+.kontatuaform2 input{
+
+    margin-top: 15px;
+    padding: 3px;
+    background-color: #ffffff;
+    border-color: #000000;
+    border-radius: 5px;
+}
+
+#mezuaa{
+    margin-left: 40%;
+}
+
+.kontatuaform2 textarea{
+    margin-top: 7px;
+    width: 91%;
+    margin-left: 13px;
+    border-color: #000000;
+    border: solid 2px;
+    border-radius: 5px;
+    resize: none;
+
+}
+
+.labelkontak{
+    margin-left: 33px;
+}
+
+.kontaktuatext iframe{
+    border-radius: 5%;
+}
+
+.kontaktuatext section{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.kontaktuatext p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.kontaktuatext h3{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.kontaktuatext article{
+    border: solid 3px #ff468c;
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 20px 10px rgb(207, 207, 207);
+
+}
+
+
+#link{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+
+}
+
+
+#izenaa{
+    margin-left: 18.5px;
+}
+
+#gmaill{
+    margin-left: 16px;
+    margin-bottom: 15px;
+}
+
+
+.kontatuaform textarea {
+    resize: none;
+    width: 90%;
+}
+
+
+.kontatuaform input {
+    margin-top: 15px;
+    padding: 3px;
+    background-color: #ffffff;
+    border-color: #000000;
+    border-radius: 5px;
+
+}
+
+legend {
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border: solid 3px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#inpuizena {
+    margin-left: 50px;
+    width: 150px;
+
+}
+
+#inputabizena {
+    margin-left: 30px;
+    width: 150px;
+
+}
+
+#inputemail {
+    margin-left: 40px;
+    width: 150px;
+}
+
+#inputpasa {
+    margin-left: 20px;
+    width: 150px;
+
+}
+
+#inputjaio {
+    margin-left: 4px;
+    width: 150px;
+    border-color: black;
+
+}
+
+#inputperfil {
+    margin-bottom: 15px;
+}
+
+#perfilaukera {
+    margin-bottom: 15px;
+}
+
+#inputkolor {
+    margin-bottom: 10px;
+    border-color: #000000;
+}
+
+#”generoa1” {
+    margin-left: 28px;
+}
+
+#”generoa2” {
+    margin-left: 100px;
+}
+
+#”generoa3” {
+    margin-left: 100px;
+}
+
+fieldset{
+    box-shadow: 20px 10px rgb(207, 207, 207);
+
+}
+
+fieldset button {
+    padding: 2%;
+    margin-top: 15px;
+    width: 35%;
+    margin-bottom: 5%;
+    border-radius: 10px;
+}
+
+.botoiak{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 15px;
+}
+
+#borratu{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+#bidali{
+    color: white;
+    background-color: rgb(0, 203, 0);
+    width: 150px;
+    height: 40px;
+}
+
+#borratu:hover {
+    background-color: rgb(194, 3, 3);
+    cursor: pointer;
+}
+
+#bidali:hover {
+    background-color: rgb(2, 108, 2);
+    cursor: pointer;
+}
+
+
+/* --------------------------------BERRIAK-----------------------*/
+
+.news-item {
+    box-shadow: 30px 15px rgb(207, 207, 207);
+    border: 2px solid #ff468c;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 50px;
+
+}
+
+.news-item img {
+    width: 17%;
+    border-radius: 10px;
+}
+
+.news-item .date {
+    font-size: 12px;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#h2guztiak {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.derecha h3 {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.derecha p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+/* --------------------HASIERA--------------------------------------------- */
+
+@media (max-width: 736px) {
+   
+    #hiru{
+        margin-top: 50px;
+    }
+
+}
+
+
+.hasieraedukia img {
+
+    border-radius: 15px;
+    height: 300px;
+    margin-top: 30px;
+
+}
+
+.elkar {
+
+    text-align: center;
+
+}
+
+
+.elkar img {
+
+    box-shadow: 15px 10px rgb(207, 207, 207);
+
+}
+
+#nor_gara {
+
+    width: 50%;
+    border-radius: 15px;
+    border: 2px solid #ff468c;
+    margin-top: 50px;
+    padding: 15px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    margin-top: 50px;
+    box-shadow: 15px 10px rgb(207, 207, 207);
+
+}
+
+#izenburuaazkenberriak{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.azkenberriak{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.berritxikiak{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px;
+    width: 20%;
+    border: #ff468c 2px solid;
+    border-radius: 15px;
+    box-shadow: 15px 10px rgb(207, 207, 207);
+
+}
+
+.berritxikiak img{
+    height: 200px;
+    width: 95%;
+    justify-content: center;
+    margin-left: 7px;
+
+}
+
+#izenburutxikiak{
+    color: #000000;
+    text-align: center;
+}
+
+#noiz{
+    text-align: center;
+    margin-top: 25px;
+    color: #505355;
+    font-size: 13px;
+    
+}
+
+#textoa{
+    color: #000000;
+    margin-top: 20px;  
+    text-align: justify;  
+}
+
+
+
+/* ------------------KLASIFIKAZIOA-------------------------------------- */
+
+
+.dena h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.dena table {
+    margin: 0 auto;
+    width: 80%;
+    box-shadow: 30px 15px rgb(207, 207, 207);
+   
+}
+
+.dena table, th, td{
+    padding: 8px;
+    border: solid 1px ; 
+    /* display: flex;
+    flex-direction: row; */ 
+}
+
+.dena table{
+    padding: 8px;
+    border: solid 2px;  
+}
+
+#postua{
+    width: 0.1%;
+}
+
+#postua{
+    text-align: center;
+    font-weight: bold;
+}
+
+#taldea{
+    width: 0.2%;
+    text-align: center;
+
+}
+
+#taldea p {
+    padding-top: 6%;
+}
+
+.dena td{
+    text-align: center;
+}
+
+#luzeera{
+    text-align: center;
+}
+
+.dena table img{
+    height: 50px;
+    text-align: center;
+}
+
+.grisa{
+    background-color: rgb(236, 236, 236);
+}
+
+
+/* ----------------------EMAITZAK--------------- */
+
+    
+.emaitza{
+    margin-bottom: 50px;
+}
+
+
+.emaitza table{
+    width: 60%;
+    margin: 0 auto;
+    border: solid 2px;  
+
+}
+
+.emaitza img{
+    height: 40px;
+    margin: 0 auto;
+}
+
+#club{
+    width: 500px;
+}
+
+
+#puntuaak{
+    width: 300px;
+}
+
+.jardunaldiax{
+    margin-bottom: 2px;
+    text-align: left;
+    font-weight: bold;
+    color: #ff468c;
+}
+
+/* ---------------------BNT FIXED------------------------------------------- */
+
+.btn-fixed {
+	text-transform: uppercase;
+	font-weight: bold; 
+	color: #ffffff;
+	border-radius: 50%;
+	background-color: #3c3fe5; 
+	padding: 15px 18px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	transition: all 300ms ease 0ms;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+	z-index: 99;
+}
+
+.btn-fixed img{
+	height: 50px;
+}
+.btn-fixed:hover {
+	background-color: #ff468c;
+	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+	transform: translateY(-7px);
+}
+
+/* --------------------------Media Query-ak------------------ */
+
+
+@media only screen and (max-width: 1150px) {
+    #izenburua{
+        color: #000000;
+    }
+    
+    header {
+    height: 80px;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 70, 140, 1) 85%);
+    margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .emaitza{
+        margin-left: 5%;
+    }
+    .kontaktuatext article{
+        width: 80%;
+    }
+    .kontaktuatext iframe{
+        width: 100%;
+    }
+   
+}
+
+
+@media only screen and (max-width: 663px) {
+    .kontaktuatext article{
+        width: 80%;
+    }
+    .kontaktuatext iframe{
+        width: 100%;
+    }
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .emaitza{
+        margin-left: 5%;
+    }
+    
+    .elkar img{
+        width: 80%;
+        height: 190px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    header{
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+ 	.btn-fixed {
+		font-size: 14px;
+		padding: 15px 18px;
+		bottom: 20px;
+		right: 20px;
+	}
+} 
+
+@media only screen and (max-width: 1440px) {
+    section {
+        max-width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1150px) {
+    header {
+        margin-top: -30px;
+    }
+
+    #logo {
+        padding: 0px;
+    }
+
+    input[type=checkbox] {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+        background: none;
+    }
+
+    input[type=checkbox]:fous {
+        background: none;
+    }
+
+
+
+    #labela {
+        padding: 8px 0px;
+        display: inline-block;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+
+    input[type=checkbox]:checked~nav {
+        display: block;
+    }
+
+    nav {
+        margin-top: 80px;
+        margin-bottom: 50px;
+        display: none;
+        position: absolute;
+        right: 0px;
+        background-color: rgba(255, 70, 140, 1);
+        padding: 0px;
+        z-index: 99;
+    }
+
+    nav ul {
+        width: auto;
+    }
+
+    nav ul li {
+        float: none;
+        padding: 0px;
+        width: 100%;
+        display: table;
+    }
+
+    nav ul li a {
+        color: #FFF;
+        font-size: 15px;
+        padding: 10px 20px;
+        display: block;
+        border-bottom: 1px solid rgba(225, 225, 225, 0.1);
+    }
+
+    nav ul li a i {
+        color: #fde428;
+        padding-right: 13px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    .content {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    h1 {
+        padding: 25px 0px;
+    }
+
+    h1 span {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    section {
+        max-width: 90%;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    #labela {
+
+        padding: 5px 0px;
+    }
+
+    #logo {
+        font-size: 20px;
+    }
+
+    nav {
+        top: 47px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    h1 {
+        padding: 20px 0px;
+    }
+}
+
+@media (max-width: 880px) {
+
+    #izenburua{
+        color: black;
+    
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+
+}
+
+
+
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 600px) {
+    .container {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 80%;
+    }
+
+    .news-item img {
+        margin-top: 10px;
+        margin-bottom: 15px;
+        height: 150px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .news-item {
+        border: 2px solid #ff468c;
+        padding: 20px;
+        text-align: center;
+        margin-bottom: 30px;
+        display: block;
+        border-radius: 20px;
+        box-shadow: 15px 10px rgb(207, 207, 207);
+
+    }
+
+}
+
+
+@media screen and (max-width: 880px) {
+    .footer-left h3{
+        color: #000000;
+    
+    }
+    .footer-distributed h3 span{
+        color: rgb(0, 0, 0);
+    }
+} 
+
+
+@media screen and (max-width: 600px) {
+    #izenburua{
+        color: black;
+        margin-left: 3%;
+        margin-bottom: 2%;
+    }
+
+    .berritxikiak {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 10%;
+        margin-right: 0%;
+        align-items: center;
+    }
+    #nor_gara{
+        width: 70%;
+    }
+   
+
+}
+
+
+@media (max-width: 1049px) {
+   
+    .kontaktuatext{
+        flex-wrap: wrap;
+    }
+
+}
+
+
+
+@media (max-width: 850px) {
+   
+    header{
+        margin-top: -30px;
+    }
+
+    .dena table{
+        box-shadow: none;
+
+    }
+
+    .berritxikiak img{
+        height: 150px;
+    }
+
+    .news-item img{
+        height: 125px;
+        width: 150px;
+    }
+    
+    .emaitza table{
+        width: 80%;
+    } 
+
+    .kontaktuatext{
+        flex-wrap: wrap;
+    }
+    
+
+}
