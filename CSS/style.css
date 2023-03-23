@@ -20,9 +20,9 @@ header {
     height: 120px;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 70, 140, 1) 85%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.411) 0%, rgb(243, 239, 0) 20%, rgb(88, 212, 5) 80%);
     margin-bottom: 50px;
-}
+}   
 
 .denna{
     justify-content: center;
@@ -42,7 +42,7 @@ header img {
 
 #izenburua {
     font-size: 28px;
-    color: rgba(255, 70, 140, 1);
+    color: rgb(4, 0, 219);
     font-weight: 600;
 }
 
@@ -70,6 +70,7 @@ nav ul li:last-child {
 nav ul li a {
     color: #ffffff;
     font-size: 16px;
+    font-weight: 500;
     padding: 20px 20px;
     display: inline-block;
     transition: all 0.5s ease 0s;
@@ -224,7 +225,7 @@ input[type=checkbox],
 }
 
 .footer-distributed {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 70, 140, 1) 85%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.411) 0%, rgb(243, 239, 0) 20%, rgb(88, 212, 5) 80%);
     box-sizing: border-box;
     width: 100%;
     text-align: left;
@@ -246,8 +247,9 @@ input[type=checkbox],
 }
 
 #Erregistratuu{
+    font-weight: bold;
     font-size: 40px;
-    color: blue;
+    color: rgb(255, 0, 0);
 }
 
 #tel {
@@ -261,7 +263,7 @@ input[type=checkbox],
 }
 
 .footer-distributed h3 {
-    color: rgba(255, 70, 140, 1);
+    color: rgb(4, 0, 219);
     font-size: 40px;
     margin: 0;
 }
@@ -272,7 +274,7 @@ input[type=checkbox],
 }
 
 .footer-distributed h3 span {
-    color: rgba(255, 70, 140, 1);
+    color: rgb(4, 0, 219);
 }
 
 /* Footer links */
@@ -678,7 +680,7 @@ fieldset button {
 
 .news-item {
     box-shadow: 30px 15px rgb(207, 207, 207);
-    border: 2px solid #ff468c;
+    border: 2px solid #fa8500;
     padding: 20px;
     margin-bottom: 20px;
     display: flex;
@@ -765,7 +767,7 @@ fieldset button {
 
     width: 50%;
     border-radius: 15px;
-    border: 2px solid #ff468c;
+    border: 2px solid #fa8500;
     margin-top: 50px;
     padding: 15px;
     background-color: #ffffff;
@@ -792,7 +794,7 @@ fieldset button {
     margin-right: 30px;
     padding: 15px;
     width: 20%;
-    border: #ff468c 2px solid;
+    border: #fa8500 2px solid;
     border-radius: 15px;
     box-shadow: 15px 10px rgb(207, 207, 207);
 
@@ -929,29 +931,36 @@ fieldset button {
 
 /* ---------------------BNT FIXED------------------------------------------- */
 
-.btn-fixed {
-	text-transform: uppercase;
-	font-weight: bold; 
-	color: #ffffff;
-	border-radius: 50%;
-	background-color: #3c3fe5; 
-	padding: 15px 18px;
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	transition: all 300ms ease 0ms;
-	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-	z-index: 99;
-}
+.scrollToTopBtn {
+    background-color: rgba(255, 166, 0, 0.781);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+    line-height: 50px;
+    width: 4%;
+    height: 6.5%;
+  
+    /* place it at the bottom right corner */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    /* keep it at the top of everything else */
+    z-index: 99;
+    /* hide with opacity */
+    opacity: 0;
+    /* also add a translate effect */
+    transform: translateY(100px);
+    /* and a transition */
+    transition: all 0.5s ease;
 
-.btn-fixed img{
-	height: 50px;
-}
-.btn-fixed:hover {
-	background-color: #ff468c;
-	box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
-	transform: translateY(-7px);
-}
+  }
+  
+  .showBtn {
+    opacity: 1;
+    transform: translateY(0);
+  }
 
 /* --------------------------Media Query-ak------------------ */
 
@@ -965,7 +974,7 @@ fieldset button {
     height: 80px;
     justify-content: center;
     width: 100%;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 70, 140, 1) 85%);
+    background: linear-gradient(90deg, rgb(10, 10, 10) 0%, rgba(255, 255, 255, 1) 13%, rgba(255, 70, 140, 1) 85%);
     margin-bottom: 50px;
     }
 }
@@ -1192,7 +1201,7 @@ fieldset button {
     }
 
     .news-item {
-        border: 2px solid #ff468c;
+        border: 2px solid #fa8500;
         padding: 20px;
         text-align: center;
         margin-bottom: 30px;
