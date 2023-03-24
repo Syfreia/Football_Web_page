@@ -31,3 +31,13 @@ scrollToTopBtn.addEventListener("click", scrollToTop);
 let observer = new IntersectionObserver(callback);
 // Finally start observing the target element
 observer.observe(target);
+
+function addMsg(event) { 
+  var clickedButton = event.target;
+  clickedButton.classList.add("success");
+}
+var buttons = document.getElementsByClassName("sharer");
+
+for(var i = 0; i < buttons.length; i += 1) {
+  buttons[i].addEventListener("click", addMsg, false);
+}   
