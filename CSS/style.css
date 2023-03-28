@@ -861,8 +861,7 @@ fieldset button {
 }
 
 #textoa{
-    color: #000000;
-    margin-top: 20px;  
+    color: #000000;  
     text-align: justify;  
 }
 
@@ -877,14 +876,14 @@ fieldset button {
 .azkenberriak .berri_card {
     position: relative;
     width: 65%;
-    height: 325px;
-    margin: 1%;
+    height: 300px;
+    margin-top: 2%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     background-color: transparent;
     border-radius: 60px;
-    border: #fa8500 2px solid;
+    /* border: #fa8500 2px solid; */
 }
 
 .azkenberriak .berri_card img {
@@ -893,7 +892,7 @@ fieldset button {
     padding-bottom: 0.2%;
     left: 50%;
     transform: translateX(-50%);
-    width: 52%;
+    width: 45%;
     height: auto;      
     transition: 0.5s;
 }
