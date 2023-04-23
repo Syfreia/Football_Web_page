@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontaktua</title>
     <link rel="shortcut icon" href="../IMG/Mi proyecto.png" type="image/x-icon">
+    <link rel="stylesheet" href="../CSS/test.css">
    
 </head>
 
@@ -45,7 +46,7 @@
                     <li><a href="../HTML/kontaktua.html" id="active">Kontaktua</a></li>
                 </ul>
             </nav>
-
+            <button class="dark_mode" onclick="myFunction()">Dark mode</button> 
         </div>
 
     </header>
@@ -96,13 +97,8 @@
                     <br>
                     <textarea maxlength="500" name="" id="" cols="30" rows="10"></textarea>
                     <br>
-                    <div class="botoiak2">
-
-                        <p><button type="reset" id="borratu">EZABATU</button></p>
-
-                        <p><button type="submit" id="bidali">BIDALI</button></p>
-
-                    </div>
+                    
+                    <button class="button">Click Me</button>
 
                 </fieldset>
             </Form>
@@ -178,7 +174,10 @@
         </div>
     </footer>
     <script src="../JS/getup_&_media_succed.js"></script>    
-
+    <script src="../JS/test.js"></script>
+    <script>
+        animateButton("button");
+    </script>
 </body>
 
 </html>

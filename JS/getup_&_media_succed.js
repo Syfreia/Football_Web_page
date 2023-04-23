@@ -41,3 +41,20 @@ var buttons = document.getElementsByClassName("sharer");
 for(var i = 0; i < buttons.length; i += 1) {
   buttons[i].addEventListener("click", addMsg, false);
 }   
+
+
+function black_mode() {
+  var element = document.body;
+  element.classList.toggle("dark");
+}
+
+function animateButton(buttonSelector) {
+  const button = document.querySelector(buttonSelector);
+  button.addEventListener("click", (e) => {
+    e.preventDefault();
+    button.classList.add("animate");
+    setTimeout(() => {
+      button.classList.remove("animate");
+    }, 600);
+  });
+}

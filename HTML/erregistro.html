@@ -5,12 +5,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/test.css">
     <link rel="shortcut icon" href="../IMG/Mi proyecto.png" type="image/x-icon">
     <title>erregistro</title>
 </head>
 
 <body>
+    <header>
+        <div class="denna">
+            <div class="logoetaizenburua">
+
+                <a href="../index.html"><img src="../IMG/Mi proyecto.png"></a>
+                <a id="izenburua">TXSoccer FUTBOL FEDERAZIOA</a>
+
+            </div>
+
+
+            <div class="hamb">
+                <label id="labela" for="toggle-1" class="toggle-menu">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </label>
+            </div>
+            <input type="checkbox" id="toggle-1">
+
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Hasiera</a></li>
+                    <li><a href="../HTML/berriak.html">Berriak</a></li>
+                    <li><a href="../HTML/klasifikazioa.html">Klasifikazioa</a></li>
+                    <li><a href="../HTML/emaitzak.html">Emaitzak</a></li>
+                    <li><a href="../HTML/galeria.html">Galeria</a></li>
+                    <li><a href="../HTML/kontaktua.html">Kontaktua</a></li>
+                </ul>
+            </nav>
+            <button class="dark_mode" onclick="black_mode()">Dark mode</button> 
+        </div>
     
+    </header>
     <main>
 
         <form>
@@ -54,19 +89,80 @@
                 <label class="labelaa">Perfil kolorea:</label>
                 <input type="color" value="#ff468c" id="inputkolor">
                 <br>
-                <div class="botoiak">
-        
-                    <p><button type="reset" id="borratu">EZABATU</button></p>
-        
-                    <p><button type="submit" id="bidali">BIDALI</button></p>
-        
-                </div>
+
+                <button id="myButton" class="button">Click Me</button>
         
             </fieldset>
+
         </form>
 
     </main>
 
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>FUTBOL<span><br> FEDERAZIOA</span></h3>
+
+            <p class="footer-links">
+                <a href="../index.html">Hasiera</a>
+                |
+                <a href="../berriak.html">Berriak</a>
+                |
+                <a href="../galeria.html">Galeria</a>
+                |
+                <a href="../kontaktua.html">Kontaktua</a>
+            </p>
+
+            <p class="footer-company-name">Copyright © 2022 TXSoccer Federazioa.
+                Eskubide guztiak erreserbatuak.</p>
+        </div>
+
+        <div class="footer-center">
+            <a href="../index.html"> <img src="../IMG/Mi proyecto.png"></a>
+            <div>
+                Gmail: <a id="link" href="mailto:contact@TXSoccer.com">contact@TXSoccer.com</a> <br>
+                <br>
+                Telefonoa: <a id="link" href="tel:+34944125712">944 12 57 12</a>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-company-about">
+                <span>Guri buruz</span>
+                TXSoccer Federazioa Futbolaren garapena arautu eta sustatzeaz arduratzen den federazioa da.
+            </p>
+            <br>
+            <a href="../HTML/erregistro.html">
+                <p id="active2">
+                    Izena heman Federazioan!
+                </p>
+            </a>
+            <div class="social-box">
+                <div class="fb sharer">
+                    <i class="fa fa-facebook"><img src="../IMG/facebook (1).png" alt=""></i>
+                </div>
+               
+                <div class="tr sharer">
+                    <i class="fa fa-twitter"><img src="../IMG/gorjeo.png" alt="" ></i>
+                </div>
+                
+                <div class="in sharer">
+                    <i class="fa fa-instagram"><img src="../IMG/instagram (1).png" alt=""></i>
+                </div>
+                
+                <div class="fb sharer">
+                    <i class="fa fa-facebook"><img src="../IMG/linkedin.png" alt=""></i>
+                </div>
+
+                <div class="yt sharer">
+                    <i class="fa fa-pinterest-p"><img src="../IMG/youtube.png" alt="" ></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../JS/getup_&_media_succed.js"></script>    
+    <script>
+        animateButton("button");
+    </script>
 </body>
 
 </html>
