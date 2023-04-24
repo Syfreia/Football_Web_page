@@ -1,4 +1,4 @@
-function animateButton() {
+function animateButton(buttonSelector) {
   const button = document.querySelector(buttonSelector);
   button.addEventListener("click", (e) => {
     e.preventDefault();

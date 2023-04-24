@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kontaktua</title>
     <link rel="shortcut icon" href="../IMG/Mi proyecto.png" type="image/x-icon">
-    <link rel="stylesheet" href="../CSS/test.css">
    
 </head>
 
@@ -46,7 +45,7 @@
                     <li><a href="../HTML/kontaktua.html" id="active">Kontaktua</a></li>
                 </ul>
             </nav>
-            <button class="dark_mode" onclick="myFunction()">Dark mode</button> 
+            <button class="dark_mode" onclick="black_mode()">Dark mode</button> 
         </div>
 
     </header>
@@ -82,15 +81,15 @@
                     <label for="" id="derrigorrezkoaa">* Dutenak derrigorrezkoak dira</label>
                     <br>
                     <label for="" class="labelkontak">Izena:</label>
-                    <input type="text" name="izena" placeholder="Zure izena idatzi" id="izenaa" pattern="[a-z-A-Z]{1,15}" title="Ezin da sartu zenbakirik" required>
+                    <input type="text" name="izena" placeholder="Zure izena idatzi" id="izenaa" pattern="[a-z-A-Z]{1,15}" title="Ezin da sartu zenbakirik">
                     <label for="" id="Derrigorrezkoa">*</label>
                     <br>
                     <label for="" class="labelkontak">Abizena:</label>
-                    <input type="text" placeholder="Zure abizena idatzi" pattern="[a-z-A-Z]{1,15}" title="Ezin da sartu zenbakirik" required>
+                    <input type="text" placeholder="Zure abizena idatzi" pattern="[a-z-A-Z]{1,15}" title="Ezin da sartu zenbakirik">
                     <label for="" id="Derrigorrezkoa">*</label>
                     <br>
                     <label for="" class="labelkontak">Gmail:</label>
-                    <input type="email" placeholder="emailIzena@gmail.com" required id="gmail">
+                    <input type="email" placeholder="emailIzena@gmail.com">
                     <label for="" id="Derrigorrezkoa">*</label>
                     <br>
                     <label for="" id="mezuaa">Mezua:</label>
@@ -98,7 +97,7 @@
                     <textarea maxlength="500" name="" id="" cols="30" rows="10"></textarea>
                     <br>
                     
-                    <button class="button">Click Me</button>
+                    <button id="myButton" class="button">Click Me</button>
 
                 </fieldset>
             </Form>
@@ -174,9 +173,9 @@
         </div>
     </footer>
     <script src="../JS/getup_&_media_succed.js"></script>    
-    <script src="../JS/test.js"></script>
+    <script src="../JS/Form1_balidation.js"></script>
     <script>
-        animateButton("button");
+        animateButton("#myButton");
     </script>
 </body>
 

@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../CSS/style.css">
-    <link rel="stylesheet" href="../CSS/test.css">
     <link rel="shortcut icon" href="../IMG/Mi proyecto.png" type="image/x-icon">
     <title>erregistro</title>
 </head>
@@ -53,15 +52,15 @@
             <fieldset class="kontatuaform">
                 <legend>Izena heman</legend>
                 <label class="labelaa">Izena:</label>
-                <input type="text" placeholder="Zure izena idatzi" id="inpuizena" pattern="[a-z-A-Z]{1,15}" title="Bakarrik letrak erabil ditzakezu" required>
+                <input type="text" placeholder="Zure izena idatzi" id="inpuizena" pattern="[a-z-A-Z]{1,15}" title="Bakarrik letrak erabil ditzakezu">
                 <label for="" id="Derrigorrezkoa">* Derrigorrezkoa</label>
                 <br>
                 <label class="labelaa">Abizena:</label>
-                <input type="text" placeholder="Zure izena abizena" id="inputabizena" pattern="[a-z-A-Z]{1,15}" title="Bakarrik letrak erabil ditzakezu" required>
+                <input type="text" placeholder="Zure izena abizena" id="inputabizena" pattern="[a-z-A-Z]{1,15}" title="Bakarrik letrak erabil ditzakezu">
                 <label for="" id="Derrigorrezkoa">* Derrigorrezkoa</label>
                 <br>
                 <label class="labelaa">Emaila:</label>
-                <input type="email" placeholder="adibidea@izena.com" id="inputemail" required>
+                <input type="email" placeholder="adibidea@izena.com" id="inputemail" >
                 <label for="" id="Derrigorrezkoa">* Derrigorrezkoa</label>
                 <br>
                 <label class="labelaa">Pasahitza:</label>
@@ -160,8 +159,9 @@
         </div>
     </footer>
     <script src="../JS/getup_&_media_succed.js"></script>    
+   <script src="../JS/From2_balidation.js"></script>
     <script>
-        animateButton("button");
+        animateButton("#myButton");
     </script>
 </body>
 
